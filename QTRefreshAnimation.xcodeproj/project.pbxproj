@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5C751E1BDA80DA002999DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C751D1BDA80DA002999DD /* main.m */; };
+		AF5C75211BDA80DA002999DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75201BDA80DA002999DD /* AppDelegate.m */; };
+		AF5C75291BDA80DA002999DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5C75281BDA80DA002999DD /* Assets.xcassets */; };
+		AF5C752C1BDA80DA002999DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C752A1BDA80DA002999DD /* LaunchScreen.storyboard */; };
+		AF5C75371BDA80DA002999DD /* QTRefreshAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75361BDA80DA002999DD /* QTRefreshAnimationTests.m */; };
+		AF5C75421BDA80DA002999DD /* QTRefreshAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75411BDA80DA002999DD /* QTRefreshAnimationUITests.m */; };
+		AF5C75511BDA8222002999DD /* QTRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75501BDA8222002999DD /* QTRefreshViewController.m */; };
+		AF5C75541BDA83C5002999DD /* QTRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75531BDA83C5002999DD /* QTRefreshView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5C75331BDA80DA002999DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C75111BDA80DA002999DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C75181BDA80DA002999DD;
+			remoteInfo = QTRefreshAnimation;
+		};
+		AF5C753E1BDA80DA002999DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C75111BDA80DA002999DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C75181BDA80DA002999DD;
+			remoteInfo = QTRefreshAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5C75191BDA80DA002999DD /* QTRefreshAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTRefreshAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C751D1BDA80DA002999DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF5C751F1BDA80DA002999DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF5C75201BDA80DA002999DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF5C75281BDA80DA002999DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5C752B1BDA80DA002999DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5C752D1BDA80DA002999DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C75321BDA80DA002999DD /* QTRefreshAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTRefreshAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C75361BDA80DA002999DD /* QTRefreshAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTRefreshAnimationTests.m; sourceTree = "<group>"; };
+		AF5C75381BDA80DA002999DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C753D1BDA80DA002999DD /* QTRefreshAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTRefreshAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C75411BDA80DA002999DD /* QTRefreshAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTRefreshAnimationUITests.m; sourceTree = "<group>"; };
+		AF5C75431BDA80DA002999DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C754F1BDA8222002999DD /* QTRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTRefreshViewController.h; sourceTree = "<group>"; };
+		AF5C75501BDA8222002999DD /* QTRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRefreshViewController.m; sourceTree = "<group>"; };
+		AF5C75521BDA83C5002999DD /* QTRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTRefreshView.h; sourceTree = "<group>"; };
+		AF5C75531BDA83C5002999DD /* QTRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRefreshView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5C75161BDA80DA002999DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C752F1BDA80DA002999DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C753A1BDA80DA002999DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5C75101BDA80DA002999DD = {
+			isa = PBXGroup;
+			children = (
+				AF5C751B1BDA80DA002999DD /* QTRefreshAnimation */,
+				AF5C75351BDA80DA002999DD /* QTRefreshAnimationTests */,
+				AF5C75401BDA80DA002999DD /* QTRefreshAnimationUITests */,
+				AF5C751A1BDA80DA002999DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5C751A1BDA80DA002999DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C75191BDA80DA002999DD /* QTRefreshAnimation.app */,
+				AF5C75321BDA80DA002999DD /* QTRefreshAnimationTests.xctest */,
+				AF5C753D1BDA80DA002999DD /* QTRefreshAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5C751B1BDA80DA002999DD /* QTRefreshAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C751F1BDA80DA002999DD /* AppDelegate.h */,
+				AF5C75201BDA80DA002999DD /* AppDelegate.m */,
+				AF5C75521BDA83C5002999DD /* QTRefreshView.h */,
+				AF5C75531BDA83C5002999DD /* QTRefreshView.m */,
+				AF5C754F1BDA8222002999DD /* QTRefreshViewController.h */,
+				AF5C75501BDA8222002999DD /* QTRefreshViewController.m */,
+				AF5C75281BDA80DA002999DD /* Assets.xcassets */,
+				AF5C752A1BDA80DA002999DD /* LaunchScreen.storyboard */,
+				AF5C752D1BDA80DA002999DD /* Info.plist */,
+				AF5C751C1BDA80DA002999DD /* Supporting Files */,
+			);
+			path = QTRefreshAnimation;
+			sourceTree = "<group>";
+		};
+		AF5C751C1BDA80DA002999DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C751D1BDA80DA002999DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF5C75351BDA80DA002999DD /* QTRefreshAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C75361BDA80DA002999DD /* QTRefreshAnimationTests.m */,
+				AF5C75381BDA80DA002999DD /* Info.plist */,
+			);
+			path = QTRefreshAnimationTests;
+			sourceTree = "<group>";
+		};
+		AF5C75401BDA80DA002999DD /* QTRefreshAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C75411BDA80DA002999DD /* QTRefreshAnimationUITests.m */,
+				AF5C75431BDA80DA002999DD /* Info.plist */,
+			);
+			path = QTRefreshAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5C75181BDA80DA002999DD /* QTRefreshAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C75461BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimation" */;
+			buildPhases = (
+				AF5C75151BDA80DA002999DD /* Sources */,
+				AF5C75161BDA80DA002999DD /* Frameworks */,
+				AF5C75171BDA80DA002999DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTRefreshAnimation;
+			productName = QTRefreshAnimation;
+			productReference = AF5C75191BDA80DA002999DD /* QTRefreshAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5C75311BDA80DA002999DD /* QTRefreshAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C75491BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationTests" */;
+			buildPhases = (
+				AF5C752E1BDA80DA002999DD /* Sources */,
+				AF5C752F1BDA80DA002999DD /* Frameworks */,
+				AF5C75301BDA80DA002999DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C75341BDA80DA002999DD /* PBXTargetDependency */,
+			);
+			name = QTRefreshAnimationTests;
+			productName = QTRefreshAnimationTests;
+			productReference = AF5C75321BDA80DA002999DD /* QTRefreshAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5C753C1BDA80DA002999DD /* QTRefreshAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C754C1BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationUITests" */;
+			buildPhases = (
+				AF5C75391BDA80DA002999DD /* Sources */,
+				AF5C753A1BDA80DA002999DD /* Frameworks */,
+				AF5C753B1BDA80DA002999DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C753F1BDA80DA002999DD /* PBXTargetDependency */,
+			);
+			name = QTRefreshAnimationUITests;
+			productName = QTRefreshAnimationUITests;
+			productReference = AF5C753D1BDA80DA002999DD /* QTRefreshAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5C75111BDA80DA002999DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "陈齐涛";
+				TargetAttributes = {
+					AF5C75181BDA80DA002999DD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 695WRBM54D;
+					};
+					AF5C75311BDA80DA002999DD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AF5C75181BDA80DA002999DD;
+					};
+					AF5C753C1BDA80DA002999DD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AF5C75181BDA80DA002999DD;
+					};
+				};
+			};
+			buildConfigurationList = AF5C75141BDA80DA002999DD /* Build configuration list for PBXProject "QTRefreshAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5C75101BDA80DA002999DD;
+			productRefGroup = AF5C751A1BDA80DA002999DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5C75181BDA80DA002999DD /* QTRefreshAnimation */,
+				AF5C75311BDA80DA002999DD /* QTRefreshAnimationTests */,
+				AF5C753C1BDA80DA002999DD /* QTRefreshAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5C75171BDA80DA002999DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C752C1BDA80DA002999DD /* LaunchScreen.storyboard in Resources */,
+				AF5C75291BDA80DA002999DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C75301BDA80DA002999DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C753B1BDA80DA002999DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5C75151BDA80DA002999DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C75211BDA80DA002999DD /* AppDelegate.m in Sources */,
+				AF5C75541BDA83C5002999DD /* QTRefreshView.m in Sources */,
+				AF5C751E1BDA80DA002999DD /* main.m in Sources */,
+				AF5C75511BDA8222002999DD /* QTRefreshViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C752E1BDA80DA002999DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C75371BDA80DA002999DD /* QTRefreshAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C75391BDA80DA002999DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C75421BDA80DA002999DD /* QTRefreshAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5C75341BDA80DA002999DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C75181BDA80DA002999DD /* QTRefreshAnimation */;
+			targetProxy = AF5C75331BDA80DA002999DD /* PBXContainerItemProxy */;
+		};
+		AF5C753F1BDA80DA002999DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C75181BDA80DA002999DD /* QTRefreshAnimation */;
+			targetProxy = AF5C753E1BDA80DA002999DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF5C752A1BDA80DA002999DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5C752B1BDA80DA002999DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5C75441BDA80DA002999DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF5C75451BDA80DA002999DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5C75471BDA80DA002999DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QTRefreshAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AF5C75481BDA80DA002999DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QTRefreshAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AF5C754A1BDA80DA002999DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTRefreshAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTRefreshAnimation.app/QTRefreshAnimation";
+			};
+			name = Debug;
+		};
+		AF5C754B1BDA80DA002999DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTRefreshAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTRefreshAnimation.app/QTRefreshAnimation";
+			};
+			name = Release;
+		};
+		AF5C754D1BDA80DA002999DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTRefreshAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTRefreshAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF5C754E1BDA80DA002999DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTRefreshAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTRefreshAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTRefreshAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5C75141BDA80DA002999DD /* Build configuration list for PBXProject "QTRefreshAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C75441BDA80DA002999DD /* Debug */,
+				AF5C75451BDA80DA002999DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5C75461BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C75471BDA80DA002999DD /* Debug */,
+				AF5C75481BDA80DA002999DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF5C75491BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C754A1BDA80DA002999DD /* Debug */,
+				AF5C754B1BDA80DA002999DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF5C754C1BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C754D1BDA80DA002999DD /* Debug */,
+				AF5C754E1BDA80DA002999DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5C75111BDA80DA002999DD /* Project object */;
+}
