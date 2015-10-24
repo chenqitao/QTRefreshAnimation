@@ -26,22 +26,28 @@
 }
 
 - (void)creatUI {
-    
+    _refreshIV = [[UIImageView alloc]initWithFrame:CGRectMake(self.bounds.size.width/2-40, -80, 80, 80)];
+    [self addSubview:_refreshIV];
 }
 
 #pragma mark 画图
 - (void)drawRect:(CGRect)rect {
     
+    CGRect frame = _refreshIV.frame;
+    frame.origin.y -= (_offsetY -_oldoOffsetY )/1.7;
+    _refreshIV.frame = frame;
+    _oldoOffsetY = _offsetY;
+    
     // 创建一个贝塞尔曲线句柄
     UIBezierPath *path = [UIBezierPath bezierPath];
     // 初始化该path到一个初始点
     [path moveToPoint:CGPointMake(0, 0)];
-    // 添加一条直线，从初始点到该函数指定的坐标点
-    [path addLineToPoint:CGPointMake(0, 0)];
+//    // 添加一条直线，从初始点到该函数指定的坐标点
+//    [path addLineToPoint:CGPointMake(0, 0)];
     // 画二元曲线，一般和moveToPoint配合使用
     [path addQuadCurveToPoint:CGPointMake(self.frame.size.width, 0) controlPoint:CGPointMake(self.frame.size.width/2,- _offsetY*1.2)];
-    // 添加一条直线，从初始点到该函数指定的坐标点
-    [path addLineToPoint:CGPointMake(self.frame.size.width, 0)];
+//    // 添加一条直线，从初始点到该函数指定的坐标点
+//    [path addLineToPoint:CGPointMake(self.frame.size.width, 0)];
     // 关闭该path
     [path closePath];
     // 创建描边（Quartz）上下文

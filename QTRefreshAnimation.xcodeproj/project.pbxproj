@@ -15,6 +15,7 @@
 		AF5C75421BDA80DA002999DD /* QTRefreshAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75411BDA80DA002999DD /* QTRefreshAnimationUITests.m */; };
 		AF5C75511BDA8222002999DD /* QTRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75501BDA8222002999DD /* QTRefreshViewController.m */; };
 		AF5C75541BDA83C5002999DD /* QTRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75531BDA83C5002999DD /* QTRefreshView.m */; };
+		AF5C75561BDBABC8002999DD /* refresh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF5C75551BDBABC8002999DD /* refresh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		AF5C75501BDA8222002999DD /* QTRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRefreshViewController.m; sourceTree = "<group>"; };
 		AF5C75521BDA83C5002999DD /* QTRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTRefreshView.h; sourceTree = "<group>"; };
 		AF5C75531BDA83C5002999DD /* QTRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRefreshView.m; sourceTree = "<group>"; };
+		AF5C75551BDBABC8002999DD /* refresh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				AF5C75531BDA83C5002999DD /* QTRefreshView.m */,
 				AF5C754F1BDA8222002999DD /* QTRefreshViewController.h */,
 				AF5C75501BDA8222002999DD /* QTRefreshViewController.m */,
+				AF5C75551BDBABC8002999DD /* refresh.jpg */,
 				AF5C75281BDA80DA002999DD /* Assets.xcassets */,
 				AF5C752A1BDA80DA002999DD /* LaunchScreen.storyboard */,
 				AF5C752D1BDA80DA002999DD /* Info.plist */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5C752C1BDA80DA002999DD /* LaunchScreen.storyboard in Resources */,
+				AF5C75561BDBABC8002999DD /* refresh.jpg in Resources */,
 				AF5C75291BDA80DA002999DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +501,7 @@
 				AF5C75481BDA80DA002999DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF5C75491BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				AF5C754B1BDA80DA002999DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF5C754C1BDA80DA002999DD /* Build configuration list for PBXNativeTarget "QTRefreshAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				AF5C754E1BDA80DA002999DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

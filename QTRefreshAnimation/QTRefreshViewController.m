@@ -30,7 +30,7 @@
     
 #pragma mark 创建刷新动画view,如果高度为0的话不会执行draw rect绘制方法
     refreshHeadView =[[QTRefreshView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height)];
-    
+     refreshHeadView.refreshIV.image = [UIImage imageNamed:@"refresh.jpg"];
     refreshHeadView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:refreshHeadView];
     // Do any additional setup after loading the view.
