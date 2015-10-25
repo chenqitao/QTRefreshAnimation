@@ -27,13 +27,24 @@
     myTableView.delegate = self;
     myTableView.dataSource = self;
     [self.view addSubview:myTableView];
+    [self initHeadView];
+
     
+}
+
+- (void)initHeadView {
 #pragma mark 创建刷新动画view,如果高度为0的话不会执行draw rect绘制方法
     refreshHeadView =[[QTRefreshView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height)];
-     refreshHeadView.refreshIV.image = [UIImage imageNamed:@"refresh.jpg"];
-    refreshHeadView.backgroundColor = [UIColor clearColor];
+    [refreshHeadView refreshSuccessWithBlock:^{
+        NSLog(@"刷新成功");
+    }];
+    NSMutableArray *imageArr = [NSMutableArray array];
+    for (int i =1; i<7; i++) {
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d",i]];
+        [imageArr addObject:image];
+    }
+    [refreshHeadView addRefreshAnimationWithImageArray:imageArr];
     [self.view addSubview:refreshHeadView];
-    // Do any additional setup after loading the view.
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

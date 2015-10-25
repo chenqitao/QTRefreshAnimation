@@ -7,12 +7,14 @@
 //
 
 #import "QTRefreshView.h"
+#define RefreshImageSize  60
 
 @implementation QTRefreshView
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self creatUI];
+
     }
     return self;
 }
@@ -26,7 +28,12 @@
 }
 
 - (void)creatUI {
-    _refreshIV = [[UIImageView alloc]initWithFrame:CGRectMake(self.bounds.size.width/2-40, -80, 80, 80)];
+    _isrefresh = NO;
+    _isstartAnimation = NO;
+    self.backgroundColor = [UIColor clearColor];
+    _refreshIV = [[UIImageView alloc]initWithFrame:CGRectMake(self.bounds.size.width/2-RefreshImageSize/2, -RefreshImageSize, RefreshImageSize, RefreshImageSize)];
+
+    _refreshIV.image = _imageArray?[_imageArray firstObject]:[UIImage imageNamed:@"refresh"];
     [self addSubview:_refreshIV];
 }
 
@@ -34,10 +41,12 @@
 - (void)drawRect:(CGRect)rect {
     
     CGRect frame = _refreshIV.frame;
-    frame.origin.y -= (_offsetY -_oldoOffsetY )/1.7;
+    frame.origin.y -= (_offsetY -_oldoOffsetY )/1.8;
     _refreshIV.frame = frame;
     _oldoOffsetY = _offsetY;
     
+    [self refreshWithOffset:_offsetY];
+    [self startAnimationByOffset:_offsetY];
     // 创建一个贝塞尔曲线句柄
     UIBezierPath *path = [UIBezierPath bezierPath];
     // 初始化该path到一个初始点
@@ -58,6 +67,54 @@
     [[UIColor redColor] set];
     // 设置填充的路径
     CGContextFillPath(context);
+}
+
+#pragma mark --判断是否是刷新的距离
+- (void)refreshWithOffset:(CGFloat)offset {
+    
+    _refreshIV.hidden = offset<=-RefreshImageSize?NO:YES;
+    
+    if (offset<-(RefreshImageSize+64)) {
+        if (!_isrefresh) {
+            _isrefresh = YES;
+            if (_refreshBlock) {
+                _refreshBlock();
+            }
+         }
+    }
+    else {
+        _isrefresh = NO;
+    }
+}
+
+#pragma mark --设置刷新时的动画
+- (void)addRefreshAnimationWithImageArray:(NSArray *)imageArray {
+    if (!_imageArray) {
+        _imageArray = imageArray;
+    }
+}
+
+#pragma mark --开始动画
+- (void)startAnimationByOffset:(CGFloat)offset {
+    if ( offset <-RefreshImageSize+10) {
+        if (!_isstartAnimation) {
+            _isstartAnimation = YES;
+            _refreshIV.animationImages = _imageArray;
+            _refreshIV.animationDuration = 0.25;
+            _refreshIV.animationRepeatCount = 100;
+            [_refreshIV startAnimating];
+        }
+    }
+    else {
+        _isstartAnimation = NO;
+        [_refreshIV stopAnimating];
+    }
+
+}
+
+#pragma mark --刷新成功所调用方法
+- (void)refreshSuccessWithBlock:(RefreshBlock)successBlock {
+    _refreshBlock = successBlock;
 }
 
 #pragma mark --因为我加了这一层view在tableview的上面，所以要把触摸时间给tableview

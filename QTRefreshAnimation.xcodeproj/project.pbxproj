@@ -16,6 +16,12 @@
 		AF5C75511BDA8222002999DD /* QTRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75501BDA8222002999DD /* QTRefreshViewController.m */; };
 		AF5C75541BDA83C5002999DD /* QTRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C75531BDA83C5002999DD /* QTRefreshView.m */; };
 		AF5C75561BDBABC8002999DD /* refresh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF5C75551BDBABC8002999DD /* refresh.jpg */; };
+		AF5C755A1BDC85F7002999DD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C75591BDC85F7002999DD /* 1.png */; };
+		AF5C755C1BDC85FB002999DD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C755B1BDC85FB002999DD /* 2.png */; };
+		AF5C75611BDC8CAB002999DD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C755D1BDC8CAB002999DD /* 3.png */; };
+		AF5C75621BDC8CAB002999DD /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C755E1BDC8CAB002999DD /* 4.png */; };
+		AF5C75631BDC8CAB002999DD /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C755F1BDC8CAB002999DD /* 5.png */; };
+		AF5C75641BDC8CAB002999DD /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5C75601BDC8CAB002999DD /* 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		AF5C75521BDA83C5002999DD /* QTRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTRefreshView.h; sourceTree = "<group>"; };
 		AF5C75531BDA83C5002999DD /* QTRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTRefreshView.m; sourceTree = "<group>"; };
 		AF5C75551BDBABC8002999DD /* refresh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh.jpg; sourceTree = "<group>"; };
+		AF5C75591BDC85F7002999DD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AF5C755B1BDC85FB002999DD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AF5C755D1BDC8CAB002999DD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		AF5C755E1BDC8CAB002999DD /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AF5C755F1BDC8CAB002999DD /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AF5C75601BDC8CAB002999DD /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,12 @@
 				AF5C75531BDA83C5002999DD /* QTRefreshView.m */,
 				AF5C754F1BDA8222002999DD /* QTRefreshViewController.h */,
 				AF5C75501BDA8222002999DD /* QTRefreshViewController.m */,
+				AF5C755D1BDC8CAB002999DD /* 3.png */,
+				AF5C755E1BDC8CAB002999DD /* 4.png */,
+				AF5C755F1BDC8CAB002999DD /* 5.png */,
+				AF5C75601BDC8CAB002999DD /* 6.png */,
+				AF5C755B1BDC85FB002999DD /* 2.png */,
+				AF5C75591BDC85F7002999DD /* 1.png */,
 				AF5C75551BDBABC8002999DD /* refresh.jpg */,
 				AF5C75281BDA80DA002999DD /* Assets.xcassets */,
 				AF5C752A1BDA80DA002999DD /* LaunchScreen.storyboard */,
@@ -250,6 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5C752C1BDA80DA002999DD /* LaunchScreen.storyboard in Resources */,
+				AF5C75621BDC8CAB002999DD /* 4.png in Resources */,
+				AF5C755A1BDC85F7002999DD /* 1.png in Resources */,
+				AF5C75641BDC8CAB002999DD /* 6.png in Resources */,
+				AF5C755C1BDC85FB002999DD /* 2.png in Resources */,
+				AF5C75611BDC8CAB002999DD /* 3.png in Resources */,
+				AF5C75631BDC8CAB002999DD /* 5.png in Resources */,
 				AF5C75561BDBABC8002999DD /* refresh.jpg in Resources */,
 				AF5C75291BDA80DA002999DD /* Assets.xcassets in Resources */,
 			);
